@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "PORT": "5678",
+      "N8N_HOST": "0.0.0.0"
+    }
+  },
+  "deploy": {
+    "restart": "always"
+  }
+}
